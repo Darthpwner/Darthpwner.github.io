@@ -1,4 +1,4 @@
-ul {
+ul.navigation-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@ ul {
 	background-color: #333;
 }
 
-li {
+li.navigation-bar {
 	float: left;
 }
 
-li a {
+li a.navigation-bar {
     display: block;
     color: white;
     text-align: center;
@@ -18,11 +18,11 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+li a:hover.navigation-bar {
 	background-color: #111;
 }
 
-.profile-picture {
+.centered {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
