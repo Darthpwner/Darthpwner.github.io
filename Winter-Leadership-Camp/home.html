@@ -1,107 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>UCLA CKI Winter Leadership Camp</title>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>UCLA CKI Winter Leadership Camp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-   <style>
+    <style>
 
-    body{
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-        margin-bottom: 0;
-        border-radius: 0;
-    }
-
-    /* Add a gray background color and some padding to the footer */
-    .footer-wrapper {
-        background-color: #2c2c2c;
-        padding: 10px;
-    }
-
-    /* Social section */
-    .footer-wrapper ul{
-        list-style-type: none;
-    }
-
-    #Facebook,#Twitter,#Instagram {
-        display: inline;
-        padding: 4px;
-    }
-
-    .footer-wrapper #social {
-        padding-top: 30px;
-    }
-
-    .carousel-inner img {
-        width: 100%; /* Set width to 100% */
-        margin: auto;
-        min-height: 250px;
-    }
-
-    /* Hide the carousel text when the screen is less than 600 pixels wide */
-    @media (max-width: 600px) {
-        .carousel-caption {
-            display: none;
+        body{
+            overflow-x: hidden;
+            overflow-y: scroll;
         }
-    }
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
 
-    #HomeAbout{
-        background-color: lightblue;
-        padding-top: 30px;
-        padding-bottom: 60px;
-    }
+        /* Add a gray background color and some padding to the footer */
+        .footer-wrapper {
+            background-color: #2c2c2c;
+            padding: 10px;
+        }
 
-    #ExperienceContainer {
-        display: block;
-        background-image: url('Images/Forest.jpg');
-        height: 620px;
+        /* Social section */
+        .footer-wrapper ul{
+            list-style-type: none;
+        }
 
-    }
+        #Facebook,#Twitter,#Instagram {
+            display: inline;
+            padding: 4px;
+        }
 
-    #SpaceHolder {
-        padding-top: 70px;
-    }
+        .footer-wrapper #social {
+            padding-top: 30px;
+        }
 
-    #ExperienceContainerRow {
-        padding-top: 10px;
-        padding-bottom: 20px;
-        margin-right: 30px;
-        margin-left: 30px;
-        background-color: black;
-        opacity: 0.85;
-    }
+        .carousel-inner img {
+            width: 100%; /* Set width to 100% */
+            margin: auto;
+            min-height: 250px;
+        }
 
-    #ExperienceContainerRow h1 {
-           padding-bottom:20px;
-           color: #3a990a;
-        font-weight:bold;
-        font-family: "Palatino Linotype";
-        text-decoration: underline;
-    }
-    #ExperienceContainer h3{
-        color: limegreen;
-        padding-bottom: 5px;
-    }
-    #ExperienceContainerRow p{
-        color:white;
-        font-size: 20px;
-        font-family:;
-    }
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+        @media (max-width: 600px) {
+            .carousel-caption {
+                display: none;
+            }
+        }
 
+        #HomeAbout{
+            background-color: lightblue;
+            padding-top: 30px;
+            padding-bottom: 60px;
+            font-family: "Myriad Pro";
+        }
 
+        h1{
+            font-family: "Myriad Pro";
+            border-bottom: 5px #2c2c2c dotted;
+            display: inline;
+        }
 
 
 
 
-   </style>
+    </style>
 </head>
 
 
@@ -131,7 +99,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
                     <!--Creating Dropdown Menu Items-->
                     <ul class="dropdown-menu">
-                        <li> <a href="http://www.uccr.org/camp/pilgrim-pines-camp-conference-center">The Camp Site</a></li>
+                        <li> <a href="http://pilgrimpines.org/">The Camp Site</a></li>
                         <li> <a href="http://uclacki.org/">What is UCLA Circle K?</a></li>
                     </ul>
                 </li>
@@ -156,50 +124,73 @@
 
 <!-- Carousel-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-   <!-- Indicators -->
-   <ol class="carousel-indicators">
-       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-       <li data-target="#myCarousel" data-slide-to="1"></li>
-   </ol>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
-   <!-- Wrapper for slides -->
-   <div class="carousel-inner" role="listbox">
-       <div class="item active">
-           <img src=" https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/14440621_10208956128734243_1154029202867502442_n.jpg?oh=fb05497350e2e1a15c6102dee606e33c&oe=58683AEE " style="height:600px;" alt="Image" >
-           <div class="carousel-caption">
-               <h1> Illuminate the Night</h1>
-               <p>It's lit.</p>
-           </div>
-       </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="Images/WLC.png" style="height:600px;" alt="Image" >
+            <div class="carousel-caption">
+                <h3> Illuminate the Night </h3>
+                <p> It's lit. </p>
 
-       <div class="item">
-           <img src="Images/Forest.jpg" style="height:600px"  alt="Image">
-           <div class="carousel-caption">
-               <h1> Random Image </h1>
-               <p>Hello There.</p>
-           </div>
-       </div>
-   </div>
+            </div>
+        </div>
 
-   <!-- Left and right controls -->
-   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-       <span class="sr-only">Previous</span>
-   </a>
-   <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-       <span class="sr-only">Next</span>
-   </a>
+        <div class="item">
+            <img src="Images/Making%20Connections.jpg" style="height:600px;" alt="Image" >
+            <div class="carousel-caption">
+                <h3> Make Connections</h3>
+                <p> Meet with over hundreds of other Circle K members from all across Cali-Nev-Ha. </p>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="Images/Camp.jpg" style="height:600px"  alt="Image">
+            <div class="carousel-caption">
+                <h3> Retreat Into The Wild </h3>
+                <p> Spend a weekend at the beautiful Pilgrim Pines Camp in Yucaipa Mountain.  </p>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="Images/Leader.jpg" style="height:600px;" alt="Image" >
+            <div class="carousel-caption">
+
+                <h3> Grow as a Leader</h3>
+                <p> Learn what it  means to think positive, build teams, and lead organizations to success.  </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
 <!--Home About-->
 <div class="container-fluid text-center" id="HomeAbout">
-    <h1>About</h1>
-    <br>
+
     <div class="row" style="...">
         <div class="col-sm-8 col-sm-offset-2">
-            <h2>WHAT IS WINTER LEADERSHIP CAMP?</h2>
-            <p>Winter Leadership Camp is a weekend camp retreat focused on the core values of service
+            <img src="Images/WLCbanner.png">
+            <h1>WHAT IS WINTER LEADERSHIP CAMP?</h1>
+            <p><br>Winter Leadership Camp is a weekend camp retreat focused on the core values of service
                 leadership and how we can apply them in the real world. We have an awesome facilitator,
                 Brian Ritchie, coming in to teach, guide, and help us discover more about ourselves as
                 leaders and how we can create a culture of service leadership in every community we enter,
@@ -221,7 +212,7 @@
 
             </p>
             <p>
-                If you have any questions, please do not hesitate whatsoever to contact us. From the bottom of my heart,
+                If you have any questions, please do not hesitate whatsoever to <a href="mailto:uclackiwlc@gmail.com?Subject=WLC%20Question">contact us</a>. From the bottom of my heart,
                 I truly hope everyone who attends camp has the most incredible experience possible,
                 and I'm so excited to see what comes out of it. I hope you are, too!
 
@@ -230,28 +221,6 @@
     </div>
 </div>
 
-<!--The Experience Content-->
-<div class="container-fluid text-center" id="ExperienceContainer">
-   <div class="row" id="SpaceHolder"></div>
-    <div class="row" id="ExperienceContainerRow">
-        <h1>The Experience </h1>
-        <div class="col-md-4">
-           <img src="Images/Making%20Connections.jpg" class="img-responsive" style="width:100%; max-height: 250px;" alt="Image">
-               <h3> Make Connections</h3>
-               <p> Meet with over hundreds of other Circle K members from all across Cali-Nev-Ha. </p>
-        </div>
-        <div class="col-md-4">
-           <img src="Images/Camp.jpg" class="img-responsive" style="width:100%; max-height: 250px;" alt="Image">
-           <h3> Retreat Into The Wild </h3>
-            <p> Spend a weekend at the beautiful Pilgrim Pines Camp in Yucaipa Mountain.  </p>
-       </div>
-        <div class="col-md-4" style="text-align: center;">
-            <img src="Images/Leader.jpg" class="img-responsive" style="width:100%; max-height: 250px;" alt="Image">
-            <h3> Grow as a Leader</h3>
-            <p> Learn what it  means to think positive, build teams, and lead organizations to success.  </p>
-        </div>
-   </div>
-</div>
 
 
 <!-- Footer Design-->
@@ -289,5 +258,7 @@
 
 </body>
 </html>
+
+
 
 
