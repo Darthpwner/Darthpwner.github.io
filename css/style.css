@@ -23,7 +23,7 @@ li a:hover.navigation-bar {
 }
 
 .background {
-	background-color: yellow;
+	background-color: gold;
 }
 
 .centered-photo {
@@ -50,4 +50,13 @@ li a:hover.navigation-bar {
 .experience-icons-square {
 	height: 150px;
 	width: 150px;
+}
+
+.subtitles {
+	color: #3284BF;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
 }
