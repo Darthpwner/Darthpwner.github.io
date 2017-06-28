@@ -26,6 +26,14 @@ li a:hover.navigation-bar {
 	background-color: gold;
 }
 
+.background-silver {
+	background-color: #C0C0C0
+}
+
+.background-bronze {
+	background-color: #CD7F32;
+}
+
 .centered-photo {
 	margin-left: auto;
 	margin-right: auto;
