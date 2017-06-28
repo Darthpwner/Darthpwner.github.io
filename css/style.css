@@ -26,7 +26,7 @@ li a:hover.navigation-bar {
 	background-color: yellow;
 }
 
-.centered {
+.centered-photo {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -37,6 +37,17 @@ li a:hover.navigation-bar {
 	text-align: center;
 }
 
-.slogan {
-	text-align: center;
+.social-icons {
+	height: 75px;
+	width: 100px;
+}
+
+.experience-icons {
+	height: 100px;
+	width: 200px;
+}
+
+.experience-icons-square {
+	height: 150px;
+	width: 150px;
 }
