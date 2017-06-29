@@ -4,6 +4,8 @@ ul.navigation-bar {
     padding: 0;
     overflow: hidden;
 	background-color: #333;
+/*	position: fixed;
+	width: 100%;*/
 }
 
 li.navigation-bar {
@@ -45,11 +47,6 @@ li a:hover.navigation-bar {
 	text-align: center;
 }
 
-.social-icons {
-	height: 75px;
-	width: 100px;
-}
-
 .experience-icons {
 	height: 100px;
 	width: 200px;
@@ -60,11 +57,26 @@ li a:hover.navigation-bar {
 	width: 150px;
 }
 
-.subtitles {
-	color: #3284BF;
+.footer {
+	background-color: white;
+	margin-top: 1%;
 }
 
 .logo {
 	height: 50px;
 	width: 50px;
 }
+
+.social-icons {
+	height: 75px;
+	width: 100px;
+}
+
+.subtitles {
+	color: #3284BF;
+}
+
+.vertical-spacing {
+	margin-top: 2%;
+}
+
