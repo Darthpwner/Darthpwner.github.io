@@ -62,6 +62,11 @@ li a:hover.navigation-bar {
 	margin-top: 1%;
 }
 
+.horizontal-spacing {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
 .logo {
 	height: 50px;
 	width: 50px;
