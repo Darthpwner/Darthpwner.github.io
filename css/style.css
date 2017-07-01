@@ -60,6 +60,10 @@ li a:hover.navigation-bar {
 .footer {
 	background-color: #f2f2f2;
 	margin-top: 1%;
+   	bottom: 0;
+   	position: relative;
+   	width:100%;
+   	clear: both;
 }
 
 .horizontal-spacing {
