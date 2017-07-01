@@ -4,8 +4,6 @@ ul.navigation-bar {
     padding: 0;
     overflow: hidden;
 	background-color: #333;
-/*	position: fixed;
-	width: 100%;*/
 }
 
 li.navigation-bar {
@@ -25,7 +23,7 @@ li a:hover.navigation-bar {
 }
 
 .background {
-	background-color: gold;
+	background-color: white;
 }
 
 .background-silver {
@@ -50,15 +48,17 @@ li a:hover.navigation-bar {
 .experience-icons {
 	height: 100px;
 	width: 200px;
+	margin-top: 5%;
 }
 
 .experience-icons-square {
 	height: 150px;
 	width: 150px;
+	margin-top: 5%;
 }
 
 .footer {
-	background-color: white;
+	background-color: #f2f2f2;
 	margin-top: 1%;
 }
 
