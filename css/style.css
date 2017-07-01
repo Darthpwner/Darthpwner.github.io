@@ -67,6 +67,11 @@ li a:hover.navigation-bar {
 	width: 50px;
 }
 
+.resume-icon {
+	height: 125px;
+	width: 125px;
+}
+
 .social-icons {
 	height: 75px;
 	width: 100px;
