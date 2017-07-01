@@ -77,13 +77,17 @@ li a:hover.navigation-bar {
 }
 
 .resume-icon {
-	height: 125px;
-	width: 125px;
+/*	height: 125px;
+	width: 125px;*/
+	height: 20%;
+	width: 10%;
 }
 
 .social-icons {
-	height: 75px;
-	width: 100px;
+/*	height: 75px;
+	width: 100px;*/
+	height: 5%;
+	width: 5%;
 }
 
 .subtitles {
