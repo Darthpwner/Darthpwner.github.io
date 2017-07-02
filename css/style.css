@@ -90,8 +90,9 @@ li a:hover.navigation-bar {
 }
 
 .rotating-photo {
-	display: none;
-	/*position: absolute;*/
+    display: none;
+    top: 0;
+    left: 0;
 }
 
 .social-icons {
