@@ -83,10 +83,10 @@ li a:hover.navigation-bar {
 }
 
 .resume-icon {
-/*	height: 125px;
-	width: 125px;*/
-	height: 20%;
-	width: 10%;
+	height: 125px;
+	width: 125px;
+/*	height: 20%;
+	width: 10%;*/
 }
 
 .social-icons {
