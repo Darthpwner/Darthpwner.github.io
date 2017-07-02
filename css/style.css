@@ -76,6 +76,12 @@ li a:hover.navigation-bar {
 	width: 50px;
 }
 
+.notes-icons {
+	height: 50%;
+	width: 50%;
+	margin-top: 5%;
+}
+
 .resume-icon {
 /*	height: 125px;
 	width: 125px;*/
