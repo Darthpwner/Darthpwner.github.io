@@ -19,6 +19,10 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet"> 
     <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- TODO: Figure out how to alternate photos on the homepage -->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1'></script>
+    <script type="text/javascript" src="js/infinite-rotator.js"></script>
 </head>
 
 <body class="background" id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -44,8 +48,18 @@
           <li class="navigation-bar"><a class="navigation-bar" href="views/notes.html" style="padding-top: 30px">Notes</a></li>
         </ul>
 
-        <!-- Profile image -->
-        <img src="img/Matthew-Lin-Photo.jpg" class="centered-photo" style="height: 25%; width: 25%; margin-top: 1%"></img>
+        <!-- Profile images -->
+        <!-- EXPERIMENTAL -->
+        <div class="centered-photo" id="rotating-photo-wrapper">
+            <img src="img/Matthew-Lin-Photo.jpg" class="rotating-photo"></img>
+            <img src="img/Matthew-Lin-Photo-Apple.jpg" class="rotating-photo"></img>
+            <img src="img/Matthew-Lin-Photo-Circle-K.jpg" class="rotating-photo"></img>
+            <img src="img/Matthew-Lin-Photo-Taboola.jpg" class="rotating-photo"></img>
+            <img src="img/Matthew-Lin-Photo-Graduation.jpg" class="rotating-photo"></img>
+        </div>
+
+        <!-- ORIGINAL -->
+        <!-- <img src="img/Matthew-Lin-Photo.jpg" class="centered-photo" style="height: 25%; width: 25%; margin-top: 1%"></img> -->
         
         <div class="background-light-silver" style="display: inline-block; margin: 1% 5% 1% 5%;">
             <p class="centered-text" style="margin: 1% 10% 1% 10%">Hi my name is Matthew Lin. I am currently a 22 year old incoming software engineer and aspire to be an entrepreneur in the future. My primary work has been in web and mobile applications using languages such as Swift, Python, Java, and JavaScript along with frameworks such as Django, ember.js, PostgreSQL, and Ruby on Rails. One of my side hobbies is collecting hardware and precious metals.</p>
@@ -84,7 +98,7 @@
 
         </div>
 
-    <!-- Core JavaScript Files -->
+    <!-- Core JavaScript Files
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>	

@@ -41,6 +41,10 @@ li a:hover.navigation-bar {
 	width: 50%;
 }
 
+.centered-profile-photos {
+	
+}
+
 .centered-text {
 	text-align: center;
 }
@@ -89,6 +93,15 @@ li a:hover.navigation-bar {
 	width: 10%;*/
 }
 
+.rotating-photo {
+	position: absolute;
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+}
+
 .social-icons {
 /*	height: 75px;
 	width: 100px;*/
@@ -102,5 +115,12 @@ li a:hover.navigation-bar {
 
 .vertical-spacing {
 	margin-top: 2%;
+}
+
+#rotating-photo-wrapper {
+	position: relative;
+
+	height: 240px;
+	width: 286px;
 }
 
