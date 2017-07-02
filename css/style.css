@@ -41,6 +41,12 @@ li a:hover.navigation-bar {
 	width: 50%;
 }
 
+.centered-profile-photos {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 .centered-text {
 	text-align: center;
 }
@@ -90,9 +96,14 @@ li a:hover.navigation-bar {
 }
 
 .rotating-photo {
+	/*position: absolute;*/
     display: none;
+
+    /* To prevent from colliding with other HTML elements*/
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .social-icons {
@@ -111,6 +122,6 @@ li a:hover.navigation-bar {
 }
 
 #rotating-photo-wrapper {
-	/*position: relative;*/
+	position: relative;
 }
 
