@@ -89,6 +89,11 @@ li a:hover.navigation-bar {
 	width: 10%;*/
 }
 
+.rotating-photo {
+	display: none;
+	/*position: absolute;*/
+}
+
 .social-icons {
 /*	height: 75px;
 	width: 100px;*/
@@ -102,5 +107,9 @@ li a:hover.navigation-bar {
 
 .vertical-spacing {
 	margin-top: 2%;
+}
+
+#rotating-photo-wrapper {
+	position: relative;
 }
 
