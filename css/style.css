@@ -141,15 +141,13 @@ li a:hover.navigation-bar {
 .console-container {
   font-family: Khula;
   font-size: 2em;
-  text-align: center;
-  /*display: block;*/
   position: absolute;
+  text-align: center;
   color: #3284BF;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
 }
 
 .console-underscore {
