@@ -20,9 +20,12 @@
     <link href="css/bootstrap.css" rel="stylesheet"> 
     <link href="css/landing-page.css" rel="stylesheet">
 
-    <!-- TODO: Figure out how to alternate photos on the homepage -->
+    <!-- Rotating photos JavaScript files -->
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1'></script>
     <script type="text/javascript" src="js/infinite-rotator.js"></script>
+
+    <!-- Terminal text JavaScript files -->
+    <script type='text/javascript' src='js/terminal-text.js'></script>
 </head>
 
 <body class="background" id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -46,6 +49,11 @@
         <div class="centered-text background-silver" style="display: inline-block; width: 100%">
             <h1><font size="10">Matthew Allen Lin</font><span class="text_color"> </span></h1>
             <h3 class="subtitles">UCLA Graduate. Incoming Software Engineer. Aspiring Entrepreneur.</h3>
+
+            <!-- EXPERIMENTAL -->
+            <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+            <!-- END OF EXPERIMENTAL -->
+
         </div>
 
         <!-- Profile images -->
@@ -94,7 +102,7 @@
 
         </div>
 
-    <!-- Core JavaScript Files
+    <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>	
