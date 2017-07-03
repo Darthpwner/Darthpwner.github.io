@@ -133,7 +133,7 @@ li a:hover.navigation-bar {
   opacity:0;
 }
 
-.console-container { 
+.console-container {
   font-family:Khula;
   font-size:4em;
   text-align:center;
@@ -150,8 +150,6 @@ li a:hover.navigation-bar {
 }
 
 .console-underscore {
-   display:inline-block;
-  position:relative;
   top:-0.14em;
   left:10px;
 }
