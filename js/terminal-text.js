@@ -1,5 +1,6 @@
 // Need to use "window.onload" in order to wait for "target" to get the "id"
 window.onload = function() {
+  consoleText(['Matthew Allen Lin'], 'name', ['black']);
   consoleText(['UCLA Graduate.', 'Incoming Software Engineer.', 'Aspiring Entrepreneur.'], 'text',['#3284BF','#3284BF','#3284BF']);
 
   function consoleText(words, id, colors) {
@@ -29,7 +30,7 @@ window.onload = function() {
           letterCount += x;
           waiting = false;
         }, 1000)
-      } else if (letterCount === words[0].length + 1 && waiting === false) {
+      } else if (letterCount === words[0].length + 1 && waiting === false && id === 'text') {
         waiting = true;
         window.setTimeout(function() {
           x = -1;
