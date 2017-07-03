@@ -134,14 +134,15 @@ li a:hover.navigation-bar {
 }
 
 .console-container {
+ 
   font-family:Khula;
   font-size:4em;
-  text-align:center;
+/*  text-align:center;
   height:200px;
   width:600px;
   display:block;
   position:absolute;
-  color:white;
+*/  color:white;
   top:0;
   bottom:0;
   left:0;
