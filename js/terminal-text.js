@@ -1,5 +1,6 @@
+// Need to use "window.onload" in order to wait for "target" to get the "id"
 window.onload = function() {
-  consoleText(['UCLA Graduate', 'Incoming Software Engineer', 'Aspiring Entrepreneur'], 'text',['tomato','rebeccapurple','lightblue']);
+  consoleText(['UCLA Graduate.', 'Incoming Software Engineer.', 'Aspiring Entrepreneur.'], 'text',['#3284BF','#3284BF','#3284BF']);
 
   function consoleText(words, id, colors) {
     if (colors === undefined) colors = ['#fff'];
