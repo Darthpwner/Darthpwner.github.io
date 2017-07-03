@@ -40,7 +40,7 @@ window.onload = function() {
         target.innerHTML = words[0].substring(0, letterCount)
         letterCount += x;
       }
-    }, 120)
+    }, 100)
     window.setInterval(function() {
       if (visible === true) {
         con.className = 'console-underscore hidden'
@@ -51,6 +51,6 @@ window.onload = function() {
 
         visible = true;
       }
-    }, 400)
+    }, 500)
   }
 };
