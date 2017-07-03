@@ -135,13 +135,14 @@ li a:hover.navigation-bar {
 
 #console-container-wrapper {
 	position: relative;
+	height: 3em;
 }
 
 .console-container {
   font-family: Khula;
   font-size: 2em;
   text-align: center;
-  display: block;
+  /*display: block;*/
   position: absolute;
   color: #3284BF;
   top: 0;
