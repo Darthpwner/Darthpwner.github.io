@@ -240,9 +240,6 @@ Animation.prototype.display = function(time)
 
 		this.createBall(ball.value, ball_yellow);
 
-		//TEMP: DELETE AFTER
-//		this.move_ball(ball, this.animation_delta_time);	//This is controlled by arrow keys
-
 		console.log("ball value: " + ball.value);
 
 		console.log("p1: " + platform1.value);
@@ -264,12 +261,6 @@ Animation.prototype.display = function(time)
 //Physics
 
 //Call this each time you create a level
-Animation.prototype.createGravity = function() {
-	ballThrust[1] -= 9.8 * .0001 * .001;	// Gravity updates translation velocity.
-	var delta = translation( scale_vec( this.animation_delta_time, ballThrust) ); // Make proportional to real time.
-	ball.value = mult(delta, ball.value);	
-}
-
 Animation.prototype.createInverseMatrix = function(mat4, scale_amount, i) {
 	var temp = inverse(mult(mat4, scale(scale_amount)));
 
@@ -285,10 +276,6 @@ Animation.prototype.createInverseMatrixBall = function(mat4, scale_amount) {
 //TODO: BUGGY AF
 Animation.prototype.detectCollisions = function() {
 	for(var i = 0; i < platforms.length; i++) {
-		if(gravityOn) {
-			this.createGravity();	
-		}
-		
 		this.createInverseMatrix(ball.value, vec3(5, 5, 5));
 
 		console.log("platforms[" + i + "].value: " + platforms[i].value); 
@@ -303,9 +290,9 @@ Animation.prototype.detectCollisions = function() {
 			var modified_sphere_point = mult_vec(T, this.m_sphere.vertices[j]);
 			if(length(vec3(modified_sphere_point)) < 1) {
 				console.log("COLLIDED " + modified_sphere_point);
-//				ballThrust[1] = 0;	//HOW DO I STOP THE Y-CONDITION?
-				//ballThrust = vec3(ballThrust[0], 0, ballThrust[2]);
-//				ball.value = mult()
+				// ballThrust[1] = 0;	//HOW DO I STOP THE Y-CONDITION?
+				// ballThrust = vec3(ballThrust[0], 0, ballThrust[2]);
+				// ball.value = mult()
 			} 
 		}
 	}
@@ -559,6 +546,10 @@ Animation.prototype.createBall = function(model_transform, color) {
 Animation.prototype.move_ball = function(b, animation_delta_time )
 	{
 		var meters_per_frame  = .01 * animation_delta_time;
+
+		if(gravityOn) {
+			ballThrust[1] -= 9.8 * .01;	// Gravity updates translation velocity.
+		}
 
 		this.detectCollisions();
 
