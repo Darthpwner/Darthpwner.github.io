@@ -1,3 +1,6 @@
 [submodule "views/CS-170A-Project"]
 	path = views/CS-170A-Project
 	url = https://github.com/Darthpwner/CS-170A-Project.git
+[submodule "views/Ping"]
+	path = views/Ping
+	url = https://github.com/Darthpwner/Ping
