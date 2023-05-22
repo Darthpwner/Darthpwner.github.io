@@ -1,6 +1,6 @@
 // Need to use "window.onload" in order to wait for "target" to get the "id"
 window.onload = function() {
-  consoleText(['UCLA Graduate', 'Software Engineer 2 at Roblox', 'Aspiring Entrepreneur', 'Part-Time Actor', 'Querying Author'], 
+  consoleText(['UCLA Graduate', 'Senior Software Engineer at Shelpful', 'Aspiring Entrepreneur', 'Part-Time Actor', 'Querying Author'], 
     'text',['#3284BF','#3284BF','#3284BF']);
 
   function consoleText(words, id, colors) {
